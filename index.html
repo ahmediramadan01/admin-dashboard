@@ -59,7 +59,42 @@
                 </li>
             </ul>
         </nav>
-        <menu class="menu">Menu</menu>
+        <menu class="menu">
+            <div class="menu__header">
+                <form class="search">
+                    <button class="search__button">
+                        <img src="./images/icons/search-icon.svg" alt="Search icon" class="search__icon" />
+                    </button>
+                    <input type="search" class="search__field" />
+                </form>
+                <div class="notifications">
+                    <button class="notifications__button">
+                        <img
+                            src="./images/icons/notify-icon.svg"
+                            alt="Notifications icon"
+                            class="notifications__icon" />
+                    </button>
+                    <figure class="notifications__user">
+                        <img src="./images/john.jpg" alt="John's photo" class="notifications__user-photo" />
+                        <figcaption class="notifications__user-name">John</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="menu__main">
+                <figure class="menu__main-user">
+                    <img src="./images/john.jpg" alt="John's photo" class="menu__user-photo" />
+                    <div class="menu__user-text">
+                        <p class="menu__user-greeting">Hi there,</p>
+                        <p class="menu__user-name">John (@john)</p>
+                    </div>
+                </figure>
+                <div class="menu__actions">
+                    <button class="menu__actions-button">New</button>
+                    <button class="menu__actions-button">Upload</button>
+                    <button class="menu__actions-button">Share</button>
+                </div>
+            </div>
+        </menu>
         <main class="main">Main</main>
         <aside class="aside">Aside</aside>
     </body>

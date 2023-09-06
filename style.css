@@ -81,7 +81,131 @@ a {
 
 .menu {
     grid-column: 2/-1;
-    background-color: blue;
+    padding: 1.8rem 5.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8.6rem;
+}
+
+.search {
+    flex-grow: 1;
+    border-radius: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search__button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__icon {
+    width: 2rem;
+}
+
+.search__field {
+    width: 100%;
+    border: none;
+    background-color: #dee6ec;
+    border-radius: 1.6rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-family: inherit;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.notifications__button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.notifications__icon {
+    width: 2.2rem;
+}
+
+.notifications__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.notifications__user-photo {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.notifications__user-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.menu__main {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.menu__main-user {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu__user-photo {
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.menu__user-greeting {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.1rem;
+}
+
+.menu__user-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.menu__actions {
+    display: flex;
+    gap: 3.4rem;
+}
+
+.menu__actions-button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #318ec2;
+    font-size: 1.6rem;
+    font-size: 700;
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    transition: all 0.3s;
+}
+
+.menu__actions-button:hover {
+    background-color: #27729b;
 }
 
 /* Main */
