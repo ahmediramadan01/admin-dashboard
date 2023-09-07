@@ -259,6 +259,75 @@ a {
 
 /* Aside */
 
+/* Aside */
+
 .aside {
-    background-color: green;
+    background: #dee6ec;
+    padding: 3rem 3rem 3rem 1.5rem;
+    overflow: auto;
+}
+
+.aside__announcements {
+    background-color: #fff;
+    padding: 1.9rem 3.6rem;
+    border-radius: 16px;
+    margin-bottom: 4.6rem;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.aside__announcement-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.aside__announcement-description {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.aside__announcement-description:not(:last-child) {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2.1rem;
+}
+
+hr {
+    margin-bottom: 2.1rem;
+}
+
+.aside__trendings {
+    background-color: #fff;
+    padding: 2.1rem 3.2rem;
+    border-radius: 1.6rem;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.aside__trending {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.aside__trending:not(:last-child) {
+    margin-bottom: 3.7rem;
+}
+
+.aside__trending-img {
+    width: 4rem;
+    height: 4rem;
+    flex-shrink: 0;
+    border-radius: 4rem;
+}
+
+.aside__trending-user-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.aside__trending-role {
+    color: #555;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
