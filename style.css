@@ -28,7 +28,7 @@ a {
     color: inherit;
 }
 
-/* Nav */
+/* Nav Styles */
 
 .nav {
     grid-row: 1/-1;
@@ -77,7 +77,7 @@ a {
     border-bottom: 3px solid currentColor;
 }
 
-/* Menu */
+/* Menu Styles */
 
 .menu {
     grid-column: 2/-1;
@@ -208,7 +208,7 @@ a {
     background-color: #27729b;
 }
 
-/* Main */
+/* Main Styles */
 
 .main {
     background: #dee6ec;
@@ -257,9 +257,7 @@ a {
     gap: 1rem;
 }
 
-/* Aside */
-
-/* Aside */
+/* Aside Styles */
 
 .aside {
     background: #dee6ec;
