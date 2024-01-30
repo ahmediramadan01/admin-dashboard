@@ -1,332 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
-            rel="stylesheet" />
-        <link rel="icon" href="./images/icons/dashboard-icon.svg" />
-        <link rel="stylesheet" href="./style.css" />
-        <title>Admin Dashboard</title>
-    </head>
-    <body>
-        <nav class="nav">
-            <figure class="dashboard-logo">
-                <img src="./images/icons/dashboard-icon.svg" alt="Admin Dashboard icon" class="dashboard-logo__icon" />
-                <figcaption class="dashboard-logo__title">Dashboard</figcaption>
-            </figure>
-            <ul class="nav__links">
-                <li>
-                    <img src="./images/icons/home-icon.svg" alt="Home icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Home</a>
-                </li>
-                <li>
-                    <img src="./images/icons/profile-icon.svg" alt="Profile icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Profile</a>
-                </li>
-                <li>
-                    <img src="./images/icons/msg-icon.svg" alt="Messages icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Messages</a>
-                </li>
-                <li>
-                    <img src="./images/icons/history-icon.svg" alt="History icon" class="nav__icon" />
-                    <a href="#" class="nav__link">History</a>
-                </li>
-                <li>
-                    <img src="./images/icons/tasks-icon.svg" alt="Tasks icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Tasks</a>
-                </li>
-                <li>
-                    <img src="./images/icons/communities-icon.svg" alt="Communities icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Communities</a>
-                </li>
-            </ul>
-            <ul class="nav__links">
-                <li>
-                    <img src="./images/icons/settings-icon.svg" alt="Settings icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Settings</a>
-                </li>
-                <li>
-                    <img src="./images/icons/support-icon.svg" alt="Support icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Support</a>
-                </li>
-                <li>
-                    <img src="./images/icons/privacy-icon.svg" alt="Privacy icon" class="nav__icon" />
-                    <a href="#" class="nav__link">Privacy</a>
-                </li>
-            </ul>
-        </nav>
-        <menu class="menu">
-            <div class="menu__header">
-                <form class="search">
-                    <button class="search__button">
-                        <img src="./images/icons/search-icon.svg" alt="Search icon" class="search__icon" />
-                    </button>
-                    <input type="search" class="search__field" />
-                </form>
-                <div class="notifications">
-                    <button class="notifications__button">
-                        <img
-                            src="./images/icons/notify-icon.svg"
-                            alt="Notifications icon"
-                            class="notifications__icon" />
-                    </button>
-                    <figure class="notifications__user">
-                        <img src="./images/john.jpg" alt="John's photo" class="notifications__user-photo" />
-                        <figcaption class="notifications__user-name">John</figcaption>
-                    </figure>
-                </div>
-            </div>
-            <div class="menu__main">
-                <figure class="menu__main-user">
-                    <img src="./images/john.jpg" alt="John's photo" class="menu__user-photo" />
-                    <div class="menu__user-text">
-                        <p class="menu__user-greeting">Hi there,</p>
-                        <p class="menu__user-name">John (@john)</p>
-                    </div>
-                </figure>
-                <div class="menu__actions">
-                    <button class="menu__actions-button">New</button>
-                    <button class="menu__actions-button">Upload</button>
-                    <button class="menu__actions-button">Share</button>
-                </div>
-            </div>
-        </menu>
-        <main class="main">
-            <h2 class="section__heading">Your Projects</h2>
-            <section class="main__projects">
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Super Cool Project</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam
-                            scelerisque pulvinar elementum, viverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Less Cool Project</h3>
-                        <p class="main__project-description">
-                            Pulvinar nisl ipsum morbi diam scelerisque lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Impossible App</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Easy Peasy App</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam
-                            scelerisque pulvinar elementum, orbi diam scviverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Ad Blocker</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam
-                            scelerisque pulvinar elementum, viverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Money Maker</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam
-                            scelerisque pulvinar elementum, viverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Super Cool Project</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam
-                            scelerisque pulvinar elementum, viverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Less Cool Project</h3>
-                        <p class="main__project-description">
-                            Pulvinar nisl ipsum morbi diam scelerisque lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-                <div class="main__project">
-                    <div class="main__project-info">
-                        <h3 class="main__project-name">Impossible App</h3>
-                        <p class="main__project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam.
-                        </p>
-                    </div>
-                    <div class="main__project-actions">
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
-                        </a>
-                        <a href="" class="main__action-button">
-                            <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <aside class="aside">
-            <section class="aside__announcements-section">
-                <h2 class="section__heading">Announcements</h2>
-                <div class="aside__announcements">
-                    <h3 class="aside__announcement-title">Site Maintenance</h3>
-                    <p class="aside__announcement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet mattis nisl nisi,
-                        pellentesq...
-                    </p>
-                    <hr />
-                    <h3 class="aside__announcement-title">Community Share Day</h3>
-                    <p class="aside__announcement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet mattis nisl nisi,
-                        pellentesq...
-                    </p>
-                    <hr />
-                    <h3 class="aside__announcement-title">Updated Privacy Policy</h3>
-                    <p class="aside__announcement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet mattis nisl nisi,
-                        pellentesq...
-                    </p>
-                </div>
-            </section>
-            <section class="aside__trendings-section">
-                <h2 class="section__heading">Trending</h2>
-                <div class="aside__trendings">
-                    <figure class="aside__trending">
-                        <img src="./images/victor.jpg" alt="John's photo" class="aside__trending-img" />
-                        <figcaption class="aside__trending-info">
-                            <h3 class="aside__trending-user-name">@victor</h3>
-                            <p class="aside__trending-role">World Peace Builder</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="aside__trending">
-                        <img src="./images/laura.jpg" alt="Laura's photo" class="aside__trending-img" />
-                        <figcaption class="aside__trending-info">
-                            <h3 class="aside__trending-user-name">@laura</h3>
-                            <p class="aside__trending-role">Life Changing App</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="aside__trending">
-                        <img src="./images/steven.jpg" alt="Steven's photo" class="aside__trending-img" />
-                        <figcaption class="aside__trending-info">
-                            <h3 class="aside__trending-user-name">@steven</h3>
-                            <p class="aside__trending-role">No Traffic Maker</p>
-                        </figcaption>
-                    </figure>
-                </div>
-            </section>
-        </aside>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="icon" href="./images/icons/dashboard-icon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <figure class="dashboard-logo">
+        <img src="./images/icons/dashboard-icon.svg" alt="Admin Dashboard icon" class="dashboard-logo__icon" />
+        <figcaption class="dashboard-logo__title">Dashboard</figcaption>
+      </figure>
+      <ul class="nav__links">
+        <li>
+          <img src="./images/icons/home-icon.svg" alt="Home icon" class="nav__icon" />
+          <a href="#" class="nav__link">Home</a>
+        </li>
+        <li>
+          <img src="./images/icons/profile-icon.svg" alt="Profile icon" class="nav__icon" />
+          <a href="#" class="nav__link">Profile</a>
+        </li>
+        <li>
+          <img src="./images/icons/msg-icon.svg" alt="Messages icon" class="nav__icon" />
+          <a href="#" class="nav__link">Messages</a>
+        </li>
+        <li>
+          <img src="./images/icons/history-icon.svg" alt="History icon" class="nav__icon" />
+          <a href="#" class="nav__link">History</a>
+        </li>
+        <li>
+          <img src="./images/icons/tasks-icon.svg" alt="Tasks icon" class="nav__icon" />
+          <a href="#" class="nav__link">Tasks</a>
+        </li>
+        <li>
+          <img src="./images/icons/communities-icon.svg" alt="Communities icon" class="nav__icon" />
+          <a href="#" class="nav__link">Communities</a>
+        </li>
+      </ul>
+      <ul class="nav__links">
+        <li>
+          <img src="./images/icons/settings-icon.svg" alt="Settings icon" class="nav__icon" />
+          <a href="#" class="nav__link">Settings</a>
+        </li>
+        <li>
+          <img src="./images/icons/support-icon.svg" alt="Support icon" class="nav__icon" />
+          <a href="#" class="nav__link">Support</a>
+        </li>
+        <li>
+          <img src="./images/icons/privacy-icon.svg" alt="Privacy icon" class="nav__icon" />
+          <a href="#" class="nav__link">Privacy</a>
+        </li>
+      </ul>
+    </nav>
+    <menu class="menu">
+      <div class="menu__header">
+        <form class="search">
+          <button class="search__button">
+            <img src="./images/icons/search-icon.svg" alt="Search icon" class="search__icon" />
+          </button>
+          <input type="search" class="search__field" />
+        </form>
+        <div class="notifications">
+          <button class="notifications__button">
+            <img src="./images/icons/notify-icon.svg" alt="Notifications icon" class="notifications__icon" />
+          </button>
+          <figure class="notifications__user">
+            <img src="./images/john.jpg" alt="John's photo" class="notifications__user-photo" />
+            <figcaption class="notifications__user-name">John</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="menu__main">
+        <figure class="menu__main-user">
+          <img src="./images/john.jpg" alt="John's photo" class="menu__user-photo" />
+          <div class="menu__user-text">
+            <p class="menu__user-greeting">Hi there,</p>
+            <p class="menu__user-name">John (@john)</p>
+          </div>
+        </figure>
+        <div class="menu__actions">
+          <button class="menu__actions-button">New</button>
+          <button class="menu__actions-button">Upload</button>
+          <button class="menu__actions-button">Share</button>
+        </div>
+      </div>
+    </menu>
+    <main class="main">
+      <h2 class="section__heading">Your Projects</h2>
+      <section class="main__projects">
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Super Cool Project</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque
+              pulvinar elementum, viverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Less Cool Project</h3>
+            <p class="main__project-description">
+              Pulvinar nisl ipsum morbi diam scelerisque lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Impossible App</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Easy Peasy App</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque
+              pulvinar elementum, orbi diam scviverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Ad Blocker</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque
+              pulvinar elementum, viverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Money Maker</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque
+              pulvinar elementum, viverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Super Cool Project</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque
+              pulvinar elementum, viverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Less Cool Project</h3>
+            <p class="main__project-description">
+              Pulvinar nisl ipsum morbi diam scelerisque lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main__project">
+          <div class="main__project-info">
+            <h3 class="main__project-name">Impossible App</h3>
+            <p class="main__project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam.
+            </p>
+          </div>
+          <div class="main__project-actions">
+            <a href="" class="main__action-button">
+              <img src="./images/icons/bookmark-icon.svg" alt="Bookmark icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/show-icon.svg" alt="Hide/Show icon" class="action__icon" />
+            </a>
+            <a href="" class="main__action-button">
+              <img src="./images/icons/git-icon.svg" alt="Git icon" class="action__icon" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <aside class="aside">
+      <section class="aside__announcements-section">
+        <h2 class="section__heading">Announcements</h2>
+        <div class="aside__announcements">
+          <h3 class="aside__announcement-title">Site Maintenance</h3>
+          <p class="aside__announcement-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet mattis nisl nisi, pellentesq...
+          </p>
+          <hr />
+          <h3 class="aside__announcement-title">Community Share Day</h3>
+          <p class="aside__announcement-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet mattis nisl nisi, pellentesq...
+          </p>
+          <hr />
+          <h3 class="aside__announcement-title">Updated Privacy Policy</h3>
+          <p class="aside__announcement-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet mattis nisl nisi, pellentesq...
+          </p>
+        </div>
+      </section>
+      <section class="aside__trendings-section">
+        <h2 class="section__heading">Trending</h2>
+        <div class="aside__trendings">
+          <figure class="aside__trending">
+            <img src="./images/victor.jpg" alt="John's photo" class="aside__trending-img" />
+            <figcaption class="aside__trending-info">
+              <h3 class="aside__trending-user-name">@victor</h3>
+              <p class="aside__trending-role">World Peace Builder</p>
+            </figcaption>
+          </figure>
+          <figure class="aside__trending">
+            <img src="./images/laura.jpg" alt="Laura's photo" class="aside__trending-img" />
+            <figcaption class="aside__trending-info">
+              <h3 class="aside__trending-user-name">@laura</h3>
+              <p class="aside__trending-role">Life Changing App</p>
+            </figcaption>
+          </figure>
+          <figure class="aside__trending">
+            <img src="./images/steven.jpg" alt="Steven's photo" class="aside__trending-img" />
+            <figcaption class="aside__trending-info">
+              <h3 class="aside__trending-user-name">@steven</h3>
+              <p class="aside__trending-role">No Traffic Maker</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </aside>
+  </body>
 </html>

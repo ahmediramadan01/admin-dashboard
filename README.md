@@ -1,6 +1,6 @@
-# Admin Dashboard: **[LIVE](https://ahmediramadan01.github.io/admin-dashboard-html-css/ "Admin Dashboard's Live Preview")**
+# Admin Dashboard: **[LIVE](https://ahmediramadan01.github.io/admin-dashboard/ "Admin Dashboard's Live Preview")**
 
-## Admin Dashboard UI built using: HTML, CSS
+## Technologies: HTML, CSS
 
 ![Admin Dashboard's Desktop Screenshot](./images/admin-dashboard-desktop.png?raw=true "Admin Dashboard (Desktop)")
 
